@@ -1,27 +1,32 @@
-# AngularCrud
+ Inventario en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+## Descripción
 
-## Development server
+Este proyecto es un inventario de productos, donde se pueden agregar, editar y eliminar productos. Además, se pueden ver los detalles de cada producto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Requerimientos
 
-## Code scaffolding
+- Node JS
+- Angular 17
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalación
 
-## Build
+1. Clonar el repositorio
+2. Crear un entorno virtual
+3. Instalar las dependencias con `npm i`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Ingresar a `localhost:4200`
+2. Agregar, editar o eliminar productos
+3. Ver los detalles de cada producto
 
-## Running end-to-end tests
+## Licencia
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+MIT License
 
-## Further help
+## Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+G1 - PINZA MORA RIVADENEIRA
+
