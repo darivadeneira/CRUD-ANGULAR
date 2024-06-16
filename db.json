@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 100
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 200
+    },
+    {
+      "id": "3",
+      "name": "Family",
+      "price": "53"
+    },
+    {
+      "id": "4",
+      "name": "inteciones",
+      "price": "234"
+    },
+    {
+      "id": "5",
+      "name": "Header",
+      "price": "344"
+    }
+  ]
+}

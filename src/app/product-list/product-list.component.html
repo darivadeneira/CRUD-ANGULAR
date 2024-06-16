@@ -1,0 +1,22 @@
+<h2>Lista de Productos </h2>
+<button class="btn btn-info" id="btnAdd" routerLink="/product-add" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Add Product</button>
+
+<table id="table" class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th colspan="2">More Options</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let product of products">
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>${{ product.price }}</td>
+        <td><button id="btnEdit" (click)="editProduct(product.id)"> <i class="bi bi-pen"></i></button></td>
+        <td><button id="btnDelete" (click)="deleteProduct(product.id)"><i class="bi bi-file-earmark-x"></i></button>
+        </td>
+        
+    </tr>
+</table>
